@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Tailwind Login</title>
+</head>
+<body class="bg-grey-200">
+    <main class="h-screen flex justify-center items-center">
+        <div class="flex flex-col relative w-full m-7">
+            <div class="bg-red-500 text-white sm:rounded-md p-5 shadow-2xl mt-7">
+                <h2 class="text-2x">Welcome</h2>
+                <p>Tailwind CSS Login</p>
+                <p class="text-xs sm:mt-32">Usando Tailwind</p>
+            </div>
+            <div class="sm:absolute border right-12 bg-white sm:rounded-md p-2 sm:w-44 flex
+            flex-col justify-center items-center shadow-xl">
+                <h2 class="text-red-500 mb-3 text-sm font-bold">Login</h2>
+                <div class="bg-red-500 shadow-x1 rounded-full w-12 h-12 mb-4"></div>
+                <input type="text" placeholder="E-mail" class="text-xs w-full p-1
+                focus:outline-none border-b-2 border-grey-600 focus:border-red-50
+                bg-transparent mb-2">
+                <input type="text" placeholder="Senha" class="text-xs w-full p-1
+                focus:outline-none border-b-2 border-grey-600 focus:border-red-50
+                bg-transparent">
+                <button class="bg-red-500 hover:bg-red-600 text-xs text-white 
+                w-full mt-4 mb-7 focus:outline-none p-2">LOGIN</button>
+                <a href="#" class="text-red-500 mb-5 text-xs">Esqueci a Senha</a>
+            </div>
+            <div class="flex flex-row justify-between mt-12 text-xs">
+                <p>Copyright &copy; 2021</p>
+                <p><span class="text-red-500 text-2xl">&hearts;</span>by 
+                    <a href="https://github.com/wagnerbagonza/" 
+                    class="hover:underline text-red-500" aria-hidden="true">Wagner Bagonza</a></p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
